@@ -21,3 +21,5 @@ def parse_expenses(expenses_string):
 expenses_data = '''2023-01-02 -34.01 USD
 2023-01-03 2.59 DKK
 2023-01-03 -2.72 EUR'''
+
+print(parse_expenses(expenses_data))
